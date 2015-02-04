@@ -1,3 +1,8 @@
+/* @author Anton Kibalnik
+A Room consists of tables, players, and a common chat and runs the server. The main method listens 
+for connections and assigns a ClientListener thread to each connecting player.
+*/
+
 package poker;
 
 import java.awt.Dimension;

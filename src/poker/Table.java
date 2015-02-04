@@ -1,3 +1,12 @@
+/* @author Anton Kibalnik
+The Table captures the bahavior of the entire poker table. Various lists of players represent 
+who is in the game, who still has to call, who is all in, etc. The next method alerts the dealer 
+to perform the next action necessary to advance the game. The dealer is responsible for keeping 
+track of the state of each player, dealing out hands and cards, ranking players hands at the end 
+of the round, awarding winning players chips, collecting chips, and calculating the best hand 
+of each player given what cards or on the board.
+*/
+
 package poker;
 
 import java.util.ArrayList;
@@ -74,7 +83,6 @@ public class Table implements java.io.Serializable {
 		Collections.rotate(hasToCall, -start);
 		
 	}
-	
 	
 	//DEALER METHODS----------------
 	

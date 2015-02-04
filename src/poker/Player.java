@@ -1,3 +1,9 @@
+/* @author Anton Kibalnik
+A Player is representation of a poker player. The class containts data defining the state of 
+the player along with actions that can be performed by the player or actions on him by other 
+players or the table.
+*/
+
 package poker;
 
 import java.util.ArrayList;

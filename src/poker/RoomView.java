@@ -1,3 +1,6 @@
+/* @author Anton Kibalnik
+The RoomView is the graphical interface for the game which also handles the networking for the client.
+*/
 package poker;
 
 import java.awt.Color;

@@ -5,9 +5,6 @@ import java.awt.Point;
 
 /** An object that encapsulates position and (optionally) size for
 * Absolute positioning of components.
-*
-* @see AbsoluteLayout
-* @version 1.01, Aug 19, 1998
 */
 public class AbsoluteConstraints implements java.io.Serializable {
     /** generated Serialized Version UID */

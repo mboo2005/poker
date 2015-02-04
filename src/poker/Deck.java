@@ -1,3 +1,10 @@
+/* @author Anton Kibalnik
+A Deck consists of an array of the 52 distinct playing cards along with a pointer to the top card.
+The top() method returns the top card and increments the pointer.
+The shuffle() method implements the Fisher-Yates (aka Knuth) shuffle algorithm.
+It also resets the pointer to 0.
+*/
+
 package poker;
 
 import java.util.Random;

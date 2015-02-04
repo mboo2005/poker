@@ -1,3 +1,7 @@
+/* @author Anton Kibalnik
+A ClientListener listens for commands from the RoomView class and executes them on behalf 
+the player, sending back the state of the game.
+*/
 package poker;
 
 import java.io.BufferedReader;

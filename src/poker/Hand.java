@@ -1,3 +1,14 @@
+/* author: Anton Kibalnik
+A Hand is a collection of five cards, which must be passed to the constructor. The HandType is evaluated at construction, 
+and can then be accessed. The cards are sorted by rank, and then rearranged at evaluation by highest kinds first for 
+comparison purposes. The implementation here is particularly elegant... A score 't' of 0 to 9 is calculated which then 
+maps to a HandType. Straights (+4), flushes (+5), or both (+8) are checked for first, separately. If needed, the hand is 
+then checked for containing kinds (pairs, trips, or quads). Finally, t = kind[2] + 3*kind[3] + 2*(kind[2]*kind[3]) + 7*kind[4]: 
++1 for each pair, +3 for a trip, +2 for a pair AND trip, and +7 for a quad.
+
+Hands are compared by type first; if the types are equal, we must then do a card by card comparison.
+*/
+
 package poker;
 
 import java.util.ArrayList;

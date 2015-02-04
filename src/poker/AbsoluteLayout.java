@@ -4,9 +4,6 @@ import java.awt.*;
 
 /** AbsoluteLayout is a LayoutManager that works as a replacement for "null" layout to
 * allow placement of components in absolute positions.
-*
-* @see AbsoluteConstraints
-* @version 1.01, Aug 19, 1998
 */
 public class AbsoluteLayout implements LayoutManager2, java.io.Serializable {
     /** generated Serialized Version UID */
